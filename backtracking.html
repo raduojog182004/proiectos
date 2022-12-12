@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="stylebacktracking.css">
+    <title>Informatica Proiect</title>
+    
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li>
+                  <a href="index.html">Acasa</a>
+            </li>
+            <li>
+                <a href="backtracking.html">Backtracking</a>
+            </li>
+             <li>
+                  <a href="greedy.html">Greedy</a>
+            </li>
+             <li>
+                  <a href="trierii.html">Trierii</a>
+            </li>
+            
+            <li>
+              <a href="profil.html">Profil</a>
+        </li>
+        </ul>
+    </nav>
+        <div class="bg-gradient">
+         <div class="grid">
+      <div class="grid-item">
+        <div class="card">
+          <div class="card-content">
+            <h1 class="card-header">Metoda Backtracking</h1>
+            <p class="card-text">
+                Intr-un algoritm backtracking ne intereseaza toate solutiile posibile. Pentru a obtine fiecare solutie finala se completeaza  stiva nivel cu  nivel trecand astfel prin niste solutii partiale. Astfel solutiile finale cat si cele partiale pentru a fi luate in  considerare trebuie sa indeplineasca anumite conditii numite conditii de  validare.  O solutie care indeplineste o astfel de conditie se numeste solutie valida. Toate configuratiile stivei ce reprezinta solutii finale sunt alcatuite din elementele aceleiasi multimi bine definite pe care o numim multimea solutiilor.
+            </p>
+          </div>
+        </div>
+      </div>
+      <br></br>
+      <div class="grid-item">
+        <div class="card">
+          <div class="card-content">
+            <h1 class="card-header">Cum functioneaza ?</h1>
+            <p class="card-text">
+                Fiecare noua solutie partiala se obtine prin completarea solutiei partiale precedente cu inca o nivel pe stiva. La fiecare nivel se pun valori din multimea solutiilor care nu au fost incercate pana cand se obtine o solutie valida. In acest moment se trece la nivelul urmator in stiva pentru a completa mai departe solutia reluand incercarile pe noul nivel. La un moment dat pe un anumit nivel nu mai exista nici o valoare neincercata din multimea valorilor problemei.In acest caz se face un pas inapoi in stiva la nivelul anterior si se reia cautarea  cu valorile ramase neincercate pe acest nivel anterior. Respectivul nivel a mai fost vizitat dar l-am abandonat dupa ce am pus  o valoare care a generat o solutie valida.            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="poza" src="./imagini/backtrack1.png" alt="">
+     <h3>Probleme si rezolvari:</h3>
+        <div class="wrapper">
+        <section class="columns">
+        <div class="column">
+            <h4>1.  Se citeste un numar natural n. Generati si afisati toate combinatiile de cate n cifre binare care nu au doua cifre de 1 alaturate.</h4>
+            <img src="./imagini/backtracking1.PNG">
+        </div>
+        <br></br>
+        <div class="column">
+            <h4>2.  Se citesc numerele naturale n,a,b,p,q (n<=20, a<=b<=n, p<=q) si apoi n punctaje diferite ale unor intrebari.
+                    Sa se afiseze toate modurile in care se poate alege pentru un test un numar de intrebari cuprins intre a si b si care sa aiba punctajul total intre p si q..</h4>
+            <img src="./imagini/backtracking2.PNG">
+        </div>
+        <br></br>
+        <div class="column">
+            <h4>3. Se citesc doua numere naturale n si m (n,m<=10) si apoi o multime A cu n elemente naturale ordonate crescator. Afisati in ordine lexicografica toate submultimile cu m elemente ele multimii A in care nu exista doua elemente pare alaturate. Daca problema nu are solutie, se va afisa mesajul "NU EXISTA".</h4>
+            <img src="./imagini/backtracking3.PNG">
+        </div>
+        <br></br>
+        </section>
+        </div>
+    </div>
+</body>
+</html>

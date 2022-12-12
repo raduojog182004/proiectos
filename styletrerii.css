@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap"');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #487888 ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #2f2a7e;
+   
+} 
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    font-family: 'Kenia', cursive;
+}
+
+.nav-links li{
+    list-style: none;
+    
+}
+
+.nav-links a{
+    color: #1092d3;
+    text-decoration: underline wavy;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.col{
+    flex-basis: 50%;
+    color: #aef87f;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    font-family: 'Kenia', cursive;
+}
+.bg-gradient{
+    height: 500vh;
+    width: 193.vh;
+    background-color: #619fab;
+}
+
+
+.grid {
+  display: flex-box;
+  grid-gap: 2rem;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 5rem;
+}
+
+.grid-item {
+  background-color: #361baf;
+  overflow: hidden;
+  
+}
+
+.card-content {
+  padding: 3rem;
+  justify-content: center;
+  
+}
+
+.card-header {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #0d0d0d;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: 'Kenia', cursive;
+}
+
+.card-text {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #c05252;
+  margin-bottom: 2.5rem;
+  font-family: 'Josfein', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+img{
+    border-radius: 8px;
+    width: 520px;
+    height: 520px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h3{
+  font-family: 'Kenia', cursive;
+  font-size: 70px;
+  font-weight: 1200;
+  text-align: center;
+  padding: 3rem;
+  color: #3d3d3d;
+  margin-top: -135px;
+}
+
+h4{
+  font-size: 25px;
+  font-family: 'Kenia', cursive;
+  font-weight: 1600;
+  margin: 1rem 0;
+  padding-left: 3.2rem;
+  padding-right: 4rem;
+  text-align: center;
+  text-align: justify;
+  color:#a73a24;
+  
+}
+
+.poza2{
+    border-radius: 8px;
+    width: 55%;
+    height: 450px;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
